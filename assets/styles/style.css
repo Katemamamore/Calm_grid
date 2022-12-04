@@ -1,0 +1,38 @@
+a {text-decoration: none; color: #353732;} 
+a:hover {text-decoration: underline;}
+    header{
+        display: grid;
+        grid-template: 10%/ 1fr  1fr ;
+        padding: 1em;
+        justify-content: space-around;
+        width: 1254px;
+        }
+.header_nav{
+    display: grid;
+    grid-template: 1fr/ 1fr 1fr 1fr;
+    width: 250px;
+}
+.heading{
+    margin-left: 330px;
+    margin-top: 180px;
+}
+.section_1{
+display: grid;
+grid-template: 1fr/2fr 1fr;
+Height: 553px;
+width: 80%;
+grid-template-areas: 
+"section_block_1 section_block_2"
+"section_block_1 section_block_3";
+}
+.section_block_1{
+    grid-area: section_block_1;
+}
+.section_block_2{
+    grid-area: section_block_2;
+}
+.section_block_3{
+    grid-area: section_block_3;
+}
+
+
